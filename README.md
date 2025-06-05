@@ -1,27 +1,47 @@
-# FrontendUcv
+# 📱 Frontend con Ionic para Registro y Autenticación Facial
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+Este proyecto es una aplicación móvil desarrollada con **Ionic + Angular**, diseñada para interactuar con un backend en Flask y permitir el **registro de usuarios**, **inicio de sesión** y **verificación mediante reconocimiento facial**.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 📌 Descripción
 
-## Code scaffolding
+La aplicación ofrece una interfaz amigable que permite a los usuarios registrarse, autenticarse con usuario/contraseña o mediante una imagen de su rostro. Está pensada para usarse en conjunto con un backend que procese el reconocimiento facial y gestione la autenticación.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Ideal para sistemas de control de acceso, asistencia de personal o apps de seguridad.
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🚀 Funcionalidades
 
-## Running unit tests
+- 📋 Registro de usuario con datos personales
+- 🔐 Inicio de sesión con credenciales
+- 📸 Captura de imagen facial desde cámara o galería
+- 📤 Envío de imagen al backend para validación
+- 🔁 Navegación por rutas protegidas si se autentica con éxito
+- ⚙️ Configurable para adaptarse a cualquier backend REST
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## 🛠️ Tecnologías
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Ionic Framework 7
+- Angular 15+
+- Capacitor (para cámara nativa)
+- HttpClient para llamadas a API Flask
+- HTML5 + SCSS
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 📦 Instalación y Ejecución
+
+### 1. Clona el repositorio
+
+git clone https://github.com/ClownLuck444/facetime-frontend.git
+cd facetime-frontend
+
+### 2. Instala las dependencias
+npm install
+### 3. Ejecuta la aplicación en el navegador
+ionic serve
+
